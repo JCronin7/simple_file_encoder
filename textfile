@@ -1,0 +1,5 @@
+Write a program in c or c++ that takes in binary plain text on stdin and outputs cipher text, 
+encrypted by xor-ing the plain text with a rotating key, on stdout. The program had to be 
+multithreaded using a variable number of threads specified as a command line argument. No 
+matter how many threads are specified, the output has to be the same. The key file is specified 
+on the command line. The plaintext isn't necessarily a multiple of the key length.
